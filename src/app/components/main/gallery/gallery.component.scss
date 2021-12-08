@@ -1,0 +1,25 @@
+.galeriaImagenes{
+
+    display : flex; 
+    flex-wrap: wrap;
+    // para hacerla responsive la web
+    div {
+        max-width: 800px;
+        margin: 20px; 
+        
+        h4{
+            margin-left: 70px; 
+            font-size: xx-large;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        }
+        .carruselImganes{
+            max-width: 300px;
+
+            img{
+                width: 100%;
+                border-radius: 25%;
+              
+            }
+        }
+    }
+}

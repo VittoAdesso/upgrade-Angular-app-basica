@@ -1,0 +1,12 @@
+<nav>
+    <div>
+        <img src="{{headerContent.logo.img}}" alt="{{headerContent.logo.title}}">
+    </div>
+
+<!--     Cómo será una barra links, no lo quiero separado por comas, lo quiero como listas y así me lo da recorriedo el array  -->
+    <ul *ngFor="let linksMaquinaria of headerContent.links">
+        <li> {{linksMaquinaria}} </li>
+
+    </ul>
+
+</nav>

@@ -1,0 +1,21 @@
+<section class="servicios">
+    
+    <article *ngFor="let articulos of mainContent">
+       
+       <h3>{{articulos.name}}</h3>   
+
+        <p>{{articulos.description}}</p>
+
+        <div class="imagenes-descriptivas">
+
+         <img src="{{articulos.img}}">
+
+        </div>
+
+    </article>
+
+</section>
+
+<!-- 
+añado la section del modulo gallery para que me lo lea de una vez en éste index y en el de app  -->
+<app-gallery></app-gallery>

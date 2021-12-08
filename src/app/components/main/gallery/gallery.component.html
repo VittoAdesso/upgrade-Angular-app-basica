@@ -1,0 +1,12 @@
+<div class="galeriaImagenes"> <!-- le pongo en un div fuera, para que me organiuce mejor las imagenes  -->
+
+    <div *ngFor="let maquinaria of galleryContent">
+        
+        <h4>{{maquinaria.title}}</h4>   
+
+         <div class="carruselImganes"> <!-- le encierro en otro div, para jugar mejor con elementos-->
+                <img src="{{maquinaria.img}}">
+
+         </div>
+    </div>
+</div>
