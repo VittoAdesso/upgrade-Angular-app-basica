@@ -3,6 +3,7 @@
     display: flex;
     justify-content: space-evenly;
     flex-wrap: wrap;
+    background-color: rgb(62, 93, 185);
     
 
     article {
@@ -16,9 +17,10 @@
 
         
             img{
-                width: 100%;
-                
+                width: 400px;
+                height: 400px; 
                 border-radius: 30px;
+                align-items: center;
             }
     }
 }
